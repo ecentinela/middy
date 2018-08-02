@@ -63,7 +63,7 @@ interface IValidatorOptions {
 }
 
 interface IURLEncodeBodyParserOptions {
-  extended?: false;
+  extended?: boolean;
 }
 
 interface IWarmupOptions {
